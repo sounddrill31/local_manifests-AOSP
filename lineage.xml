@@ -10,8 +10,8 @@
   <!--<project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="lineag" />-->
   <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineag" />-->
   <!--<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineag" />-->
-  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineag" />
-  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineag" />
+  <!--<project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineag" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineag" />-->
 
   <!-- CodeLinaro additions -->
   <!--<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-20.0-legacy-um" remote="lineag" />
