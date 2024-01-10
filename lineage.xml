@@ -7,7 +7,7 @@
   <!-- LineageOS additions -->
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="lineag" />
   <!--<project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />-->
-  <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="lineag" />
+  <!--<project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="lineag" />-->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineag" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineag" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineag" />
