@@ -3,6 +3,21 @@
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a13/master" />
+     <remote name="sounddrill31"
+                   fetch="https://github.com/sounddrill31"
+                   clone-depth="1" />
+      <remote name="sanek"
+                    fetch="https://github.com/Sanek-creed"
+                    clone-depth="1" />        
+      <remote name="gh"
+                    fetch="https://github.com/"
+                    clone-depth="1" />         
+   <!--Tree -->
+   <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-1" remote="sounddrill31" revision="derpfest-13" />
+   <!--Kernel -->
+   <project path="kernel/xiaomi/oxygen" name="kernel_msm-4.9" remote="mi-thorium" revision="oxygen/a13/master" />
+   <!--Vendor -->
+   <project path="vendor/xiaomi/oxygen" name="proprietary_vendor_xiaomi_oxygen" remote="sounddrill31" revision="a11/master" />
 
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium" revision="a13/aosp"/>
