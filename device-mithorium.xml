@@ -40,9 +40,9 @@
   <project path="device/xiaomi/kernel-mithorium" name="android_device_xiaomi_kernel-mithorium" groups="device" remote="mi-thorium" revision="master"/>
 
  <!-- Hardware -->
-  <project path="hardware/mithorium/aosp" name="android_hardware_mithorium_aosp" groups="device" remote="mi-thorium" revision="a13">
+ <!-- <project path="hardware/mithorium/aosp" name="android_hardware_mithorium_aosp" groups="device" remote="mi-thorium" revision="a13">
     <linkfile src="guards/guard_hardware_qcom.mk" dest="hardware/qcom/Android.mk" />
-  </project>
+  </project> -->
   <project path="hardware/mithorium/common" name="android_hardware_mithorium_common" groups="device" remote="mi-thorium" revision="lineage">
     <linkfile src="_Android.mk" dest="hardware/mithorium/Android.mk" />
     <linkfile src="mithorium_qcom_hals.mk" dest="hardware/mithorium/mithorium_qcom_hals.mk" />
