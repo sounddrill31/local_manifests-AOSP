@@ -12,7 +12,16 @@
       <remote name="gh"
                     fetch="https://github.com/"
                     clone-depth="1" />         
-   <!--Tree -->
+  
+  <!--Removals-->
+ <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_media"/>  --> 
+ <remove-project name="hardware_qcom_display"/>
+   <remove-project name="hardware_qcom_wlan"/>
+   <remove-project name="hardware_qcom_media"/>
+   <remove-project name="hardware_qcom_audio"/>
+
+<!--Tree -->
    <project path="device/xiaomi/oxygen" name="android_device_xiaomi_oxygen-1" remote="sounddrill31" revision="derpfest-13" />
    <!--Kernel -->
    <project path="kernel/xiaomi/oxygen" name="kernel_msm-4.9" remote="mi-thorium" revision="oxygen/a13/master" />
